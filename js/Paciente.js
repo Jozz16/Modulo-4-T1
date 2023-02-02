@@ -7,5 +7,9 @@ function Paciente(nombre, rut, edad, diagnostico){
     this.nombrar = function(){
         return "Paciente : " + nombre  + " <br>" + "Rut : " +rut + "<br>"+"Edad : " + edad + "<br>" + "diagnostico : " +diagnostico + "<br>"+"<br>";
     }
+   
+
+
+
     
 }

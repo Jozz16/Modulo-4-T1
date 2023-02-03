@@ -1,3 +1,4 @@
+
 function Consultorio(nombre, paciente){
     this.nombre = nombre
     this.paciente = paciente
@@ -5,10 +6,9 @@ function Consultorio(nombre, paciente){
     Consultorio.prototype.getNombre = function(){
         return   this.nombre 
     }  
-    Consultorio.prototype.getFiltro = function(){
-        return paciente.datosPaciente.filter(elemento=>elemento.nombre === nombreInput.value)
+    Consultorio.prototype.buscarPaciente = function(nombre){
+        return paciente.datosPaciente.filter(elemento=>elemento.nombre === nombre)
     } 
-    
 }
 
-
+// AGREGAR FORMULARIO HTLMMPARA AGRAGAR PACIENTES 

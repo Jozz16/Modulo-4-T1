@@ -1,6 +1,6 @@
 const paciente={
 	"datosPaciente": [{
-			"nombre": "a",
+			"nombre": "Jimena Riquelme",
 			"rut": "13.876.863-7",
 			"edad": "20",
 			"diagnostico": "cancer"
